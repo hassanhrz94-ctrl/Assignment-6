@@ -47,7 +47,26 @@ function Navbar() {
           </div>
         </div>
       </section>
+        <section className="bg-gradient-to-r from-[#4F39F6] to-[#7C3AED] py-12">
+      <div className="max-w-7xl mx-auto px-10 flex flex-wrap justify-around text-white text-center">
+        <div>
+          <h2 className="text-4xl font-bold">50K+</h2>
+          <p className="text-purple-100 text-sm mt-1">Active Users</p>
+        </div>
+        <div className="h-12 w-px bg-white/20 hidden md:block"></div>
+        <div>
+          <h2 className="text-4xl font-bold">200+</h2>
+          <p className="text-purple-100 text-sm mt-1">Premium Tools</p>
+        </div>
+        <div className="h-12 w-px bg-white/20 hidden md:block"></div>
+        <div>
+          <h2 className="text-4xl font-bold">4.9</h2>
+          <p className="text-purple-100 text-sm mt-1">Rating</p>
+        </div>
       </div>
+    </section>
+      </div>
+      
       
   );
 }

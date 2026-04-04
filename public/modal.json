@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker",
+      "Plagiarism detector",
+      "Multi-language support"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license",
+      "Figma & Canva compatible",
+      "Free future packs"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and workflows to save hours every week with smart integrations.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited automations",
+      "500+ app integrations",
+      "Visual workflow builder",
+      "Webhook support",
+      "Priority support"
+    ],
+    "icon": "⚙️"
+  },
+  {
+    "id": 4,
+    "name": "Resume Builder Pro",
+    "description": "Create ATS-optimized resumes and cover letters that land more interviews.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "100+ resume templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter generator",
+      "LinkedIn sync"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 5,
+    "name": "SEO Booster Suite",
+    "description": "Skyrocket your website rankings with AI-powered keyword research and on-page SEO tools.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Keyword research tool",
+      "Competitor analysis",
+      "Backlink tracker",
+      "Site audit reports",
+      "Rank tracking dashboard"
+    ],
+    "icon": "📈"
+  },
+  {
+    "id": 6,
+    "name": "Video Editor AI",
+    "description": "Edit and enhance videos automatically using AI — no editing experience required.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Auto captions & subtitles",
+      "AI background remover",
+      "1080p export",
+      "50+ transitions",
+      "Cloud storage 100GB"
+    ],
+    "icon": "🎬"
+  },
+  {
+    "id": 7,
+    "name": "Social Media Scheduler",
+    "description": "Plan, schedule, and auto-post content across all your social platforms from one dashboard.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited post scheduling",
+      "10+ platform support",
+      "Analytics & insights",
+      "AI caption suggestions",
+      "Team collaboration"
+    ],
+    "icon": "📱"
+  },
+  {
+    "id": 8,
+    "name": "Code Assistant Pro",
+    "description": "AI-powered coding assistant that helps you write, debug, and review code faster than ever.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI code completion",
+      "Bug detection & fixes",
+      "30+ language support",
+      "Code review mode",
+      "GitHub integration"
+    ],
+    "icon": "💻"
+  }
+]
