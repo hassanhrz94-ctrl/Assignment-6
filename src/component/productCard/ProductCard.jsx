@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import iconImg from "../../../assets/products/operation.png"
 
 const ProductCard = ({product}) => {
     console.log(product)
     const{ name , description , price ,period , tag , tagtype , features ,icon}=product;
+
+const[isBuyNow, setButNow]=useState(false)
+
+const handleBtn =()=>{
+  setButNow(true)
+}
+
     return (
         
             
@@ -10,7 +18,7 @@ const ProductCard = ({product}) => {
   <div className="card-body">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">{name}</h2>
+      <h2 className="text-3xl font-bold"><img src={iconImg} alt="" />{name}</h2>
       <span className="text-xl font-bold">{price}$/Month</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
@@ -33,7 +41,7 @@ const ProductCard = ({product}) => {
       
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary btn-block">Subscribe</button>
+      <button onClick={handleBtn} className="btn btn-primary btn-block">{isBuyNow?'Buy':"Buy Now"}</button>
     </div>
   </div>
 </div>
