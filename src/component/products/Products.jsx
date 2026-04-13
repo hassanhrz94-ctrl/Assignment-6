@@ -8,8 +8,8 @@ const Products = ({productive}) => {
     console.log(products)
     
     return (
-        <div>
-            <h1></h1>{
+        <div className='grid grid-cols-3'>
+            {
                 products.map(product=> 
                 <div> 
                     
