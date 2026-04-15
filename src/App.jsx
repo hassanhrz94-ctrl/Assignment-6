@@ -9,6 +9,7 @@ import Cart from './component/cart/Cart'
 import { ToastContainer } from 'react-toastify'
 import GetStarted from './getStarted/GetStarted'
 import Subscription from './getStarted/Subscription'
+import Hero from './component/navbar/Hero'
 
 
 const productsPromise = async()=>{
@@ -28,6 +29,7 @@ console.log(carts)
   return (
     <>
      <Navbar/>
+     <Hero/>
         <ToastContainer />
 
      {/* name of each tab group should be unique */}
