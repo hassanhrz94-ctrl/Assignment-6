@@ -18,8 +18,9 @@ const productive=productsPromise();
 function App() {
   
   const[isActiveTab,setActiveTab] =useState('product')
-  console.log(isActiveTab)
-
+  
+const[carts,setCarts]=useState([])
+console.log(carts)
 
   return (
     <>
@@ -27,16 +28,16 @@ function App() {
 
 
      {/* name of each tab group should be unique */}
-<div className="tabs tabs-box">
+<div className="tabs tabs-box justify-center text-blue-700 ">
   <input type="radio" name="my_tabs_1" className="tab" aria-label="Products" defaultChecked onClick={()=>setActiveTab('product')}/>
   <input type="radio" name="my_tabs_1" className="tab" aria-label="Cart" onClick={()=>setActiveTab('cart')}  />
 
 </div>
 
-    <Suspense fallback={<h1>loading..</h1>}> {isActiveTab === 'product' && <Products productive={productive}/>}</Suspense>
+    <Suspense fallback={<h1>loading..</h1>}> {isActiveTab === 'product' && <Products productive={productive} carts={carts} setCarts={setCarts}/>}</Suspense>
     
 
-    {isActiveTab === 'cart' && <Cart/>}
+    {isActiveTab === 'cart' && <Cart carts={carts} setCarts={setCarts}/>}
      
 <Footer/>
      
