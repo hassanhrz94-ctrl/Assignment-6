@@ -37,7 +37,7 @@ const GetStarted = () => {
     return (
         <section className="py-16 px-4 bg-white">
 
-            {/* Heading */}
+       
             <div className="text-center mb-12">
                 <h2 className="text-4xl font-extrabold text-gray-900 mb-3">
                     Get Started in 3 Steps
@@ -47,29 +47,26 @@ const GetStarted = () => {
                 </p>
             </div>
 
-            {/* Cards */}
+   
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
                 {steps.map((step) => (
                     <div
                         key={step.id}
                         className="relative bg-white border border-gray-100 rounded-2xl shadow-sm px-8 py-10 flex flex-col items-center text-center"
                     >
-                        {/* Step Number Badge */}
+                        
                         <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-purple-600 flex items-center justify-center">
                             <span className="text-white text-xs font-bold">{step.id}</span>
                         </div>
 
-                        {/* Icon Circle */}
+                    
                         <div className="w-24 h-24 rounded-full bg-purple-100 flex items-center justify-center mb-6">
                             {step.icon}
                         </div>
 
-                        {/* Title */}
                         <h3 className="text-lg font-bold text-gray-900 mb-2">
                             {step.title}
                         </h3>
-
-                        {/* Description */}
                         <p className="text-gray-400 text-sm leading-relaxed">
                             {step.description}
                         </p>
