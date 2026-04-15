@@ -6,6 +6,8 @@ import Footer from './component/footer/Footer'
 import Navbar from './component/navbar/Navbar'
 import Products from './component/products/Products'
 import Cart from './component/cart/Cart'
+import { ToastContainer } from 'react-toastify'
+import GetStarted from './getStarted/GetStarted'
 
 
 const productsPromise = async()=>{
@@ -25,7 +27,7 @@ console.log(carts)
   return (
     <>
      <Navbar/>
-
+        <ToastContainer />
 
      {/* name of each tab group should be unique */}
 <div className="tabs tabs-box justify-center text-blue-700 ">
@@ -38,7 +40,7 @@ console.log(carts)
     
 
     {isActiveTab === 'cart' && <Cart carts={carts} setCarts={setCarts}/>}
-     
+     <GetStarted/>
 <Footer/>
      
     </>
